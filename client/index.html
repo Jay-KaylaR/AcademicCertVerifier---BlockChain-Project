@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>EduVerify - Certificate Verification</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>EduVerify</h1>
+      <div>
+        <input id="certId" placeholder="Certificate ID">
+        <button id="verifyBtn">Verify</button>
+      </div>
+      <pre id="result"></pre>
+      <p class="note">Make sure you update <code>contractAddress</code> in app.js with the deployed address.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.8.2/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
